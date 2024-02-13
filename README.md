@@ -44,8 +44,3 @@ A configuration class annotated with `@Configuration`, responsible for setting u
 ### `FirstHomeworkApplication`
 The main class of the application, annotated with `@SpringBootApplication`. It runs the Spring application, utilizes the `ResidentialPropertyService` to perform operations, and demonstrates the system's functionalities by printing property details and statistics.
 
-## How to Run
-Ensure you have Java and Maven installed. Navigate to the project directory and run the application using Spring Boot Maven plugin:
-
-```shell
-mvn spring-boot:run
