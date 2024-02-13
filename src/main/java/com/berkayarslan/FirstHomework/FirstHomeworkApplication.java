@@ -22,13 +22,13 @@ public class FirstHomeworkApplication {
 
 		System.out.println("\n");
 
-		System.out.println("Total House Price: " + String.format("%,.2f",residentialPropertyService.getTotalPriceOfPropertyType(House.class)));
+		System.out.println("Total House Price: " + String.format("₺%,.2f",residentialPropertyService.getTotalPriceOfPropertyType(House.class)));
 
-		System.out.println("Total Villa Price: " + String.format("%,.2f",residentialPropertyService.getTotalPriceOfPropertyType(Villa.class)));
+		System.out.println("Total Villa Price: " + String.format("₺%,.2f",residentialPropertyService.getTotalPriceOfPropertyType(Villa.class)));
 
-		System.out.println("Total Cottage Price: " + String.format("%,.2f",residentialPropertyService.getTotalPriceOfPropertyType(Cottage.class)));
+		System.out.println("Total Cottage Price: " + String.format("₺%,.2f",residentialPropertyService.getTotalPriceOfPropertyType(Cottage.class)));
 
-		System.out.println("Total Residential Property Price: " + String.format("%,.2f",residentialPropertyService.getTotalPriceOfResidentialProperty())+"\n");
+		System.out.println("Total Residential Property Price: " + String.format("₺%,.2f",residentialPropertyService.getTotalPriceOfResidentialProperty())+"\n");
 
 		System.out.println("Avarage Square Meters Of House: " + String.format("%,.2f",residentialPropertyService.getAverageSquareMetersOfPropertyType(House.class)) + " m\u00B2");
 
