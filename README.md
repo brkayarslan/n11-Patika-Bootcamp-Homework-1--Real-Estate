@@ -45,4 +45,4 @@ A configuration class annotated with `@Configuration`, responsible for setting u
 The main class of the application, annotated with `@SpringBootApplication`. It runs the Spring application, utilizes the `ResidentialPropertyService` to perform operations, and demonstrates the system's functionalities by printing property details and statistics.
 
 ### `Output`
-![Output](.\OutputImg\output.png)
+![Output](./OutputImg/output.png)
