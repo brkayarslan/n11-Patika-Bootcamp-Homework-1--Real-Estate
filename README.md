@@ -78,4 +78,4 @@ public static void main(String[] args) {
 	
 	
 ### `Output`
-![Output](./OutputImg/output.png)
+![Output](./outputImg/output.png)
